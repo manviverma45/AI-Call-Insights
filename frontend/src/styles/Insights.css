@@ -1,0 +1,87 @@
+.insights-container {
+  font-family: 'Poppins', sans-serif;
+  padding: 40px 20px;
+  background-color: #121212;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.insight-heading {
+  color: #00ff91;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.no-insights {
+  font-size: 18px;
+  color: gray;
+  margin-top: 50px;
+}
+
+.insight-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.insight-card {
+  background-color: #1e1e1e;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(0, 255, 145, 0.1);
+  padding: 20px;
+  width: 60%;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.insight-card:hover {
+  transform: scale(1.01);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.timestamp {
+  font-size: 13px;
+  color: #00ff91;
+  text-align: left;
+}
+
+.delete-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.card-body {
+  text-align: left;
+}
+
+.card-body p {
+  margin: 8px 0;
+}
+
+.card-body ul {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0;
+}
+
+.card-body ul li {
+  margin: 4px 0;
+}

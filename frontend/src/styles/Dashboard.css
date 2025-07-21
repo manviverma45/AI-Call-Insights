@@ -1,0 +1,77 @@
+/* src/styles/Dashboard.css */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.dashboard-container {
+  min-height: 100vh;
+  background-color: #121212;
+  color: #e0e0e0;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+  color: #00ffcc;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.card {
+  background-color: #1f1f1f;
+  border: 2px solid #00ffcc;
+  border-radius: 15px;
+  padding: 1.8rem;
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 12px rgba(0, 255, 204, 0.4);
+}
+
+.card:hover {
+  background-color: #262626;
+  transform: scale(1.03);
+  box-shadow: 0 0 18px rgba(0, 255, 204, 0.6);
+}
+
+.card h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #bbbbbb;
+}
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.dashboard-card {
+  background-color: #1e1e1e;
+  border: 2px solid #00ff99;
+  border-radius: 1rem;
+  padding: 2rem;
+  font-size: 1.25rem;
+  text-align: center;
+  cursor: pointer;
+  color: #00ff99;
+  transition: 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.dashboard-card:hover {
+  transform: scale(1.05);
+  background-color: #292929;
+}

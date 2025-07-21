@@ -1,0 +1,57 @@
+.settings-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.settings-box {
+  background-color: #1e1e1e;
+  padding: 30px;
+  border: 2px solid #00ffcc;
+  border-radius: 16px;
+  box-shadow: 0 0 20px #00ffcc;
+  color: white;
+  width: 500px;
+  font-family: "Poppins", sans-serif;
+}
+
+.settings-box h2 {
+  margin-bottom: 10px;
+  color: #00ffcc;
+}
+
+.setting-group {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.setting-group label {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.setting-group select,
+.setting-group input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+}
+
+.clear-btn {
+  margin-top: 30px;
+  padding: 12px 20px;
+  background-color: #ff4d4d;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.clear-btn:hover {
+  background-color: #ff1a1a;
+}

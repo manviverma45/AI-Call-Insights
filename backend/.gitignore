@@ -1,0 +1,24 @@
+# Python virtual environment
+venv/
+.env/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Uploads and generated audio files
+uploads/
+*.wav
+*.mp3
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional)
+.vscode/
+
+# Logs
+*.log
