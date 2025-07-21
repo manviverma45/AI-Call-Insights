@@ -32,7 +32,7 @@ Others	REST APIs, File Uploads, Timestamp Tracking
 #### 🟢 History Page with Cards
 ![History Page](frontend/public/screenshots/s4.png)
 
-#### 🟢 Delete Functionality
+#### 🟢 Settings 
 ![Delete Button](frontend/public/screenshots/s5.png)
 
 
